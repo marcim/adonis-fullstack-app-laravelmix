@@ -18,7 +18,7 @@ Create a new project with:
 
 ## Usage
 
-The Adonis `start` and `test` commands still there. And The following commands are available to handle project assets:
+The Adonis `start` and `test` commands still there and the following commands are available to handle project assets:
 
 | Command | Description |
 |---------|-------------|
@@ -41,13 +41,16 @@ For more information see project sites:
 ## Licenses
 
 [AdonisJs license](https://github.com/adonisjs/adonis-framework/blob/master/LICENSE.md)
+
 [Laravel Mix license](https://github.com/JeffreyWay/laravel-mix/blob/master/LICENSE)
+
 [VueJs license](https://github.com/vuejs/vue/blob/master/LICENSE)
 
 
 ## Contributing
 
 Suggestions and contributions are welcome via Pull Requests.
+
 
 
 Obrigado! (thanks!)
