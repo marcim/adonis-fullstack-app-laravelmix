@@ -1,18 +1,24 @@
 {
-  "name": "adonis-fullstack-app",
-  "version": "4.1.0",
+  "name": "adonis-fullstack-app-laravelmix",
+  "version": "1.0.0",
   "adonis-version": "4.1.0",
-  "description": "The fullstack application boilerplate for Adonisjs",
+  "description": "The fullstack application boilerplate for Adonis with Laravel Mix",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "asset-dev": "npm run asset-development",
+    "asset-development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "asset-watch": "npm run asset-development -- --watch",
+    "asset-watch-poll": "npm run asset-watch -- --watch-poll",
+    "asset-hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "asset-prod": "npm run asset-production",
+    "asset-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "keywords": [
     "adonisjs",
     "adonis-app"
   ],
-  "author": "",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
@@ -27,7 +33,16 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.1.0",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.12",
+    "vue": "^2.5.7"
+  },
   "autoload": {
     "App": "./app"
   }

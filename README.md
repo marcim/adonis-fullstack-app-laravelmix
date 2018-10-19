@@ -1,31 +1,53 @@
-# Adonis fullstack application
+# AdonisJs FullStack App With Laravel Mix
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+[AdonisJs](http://adonisjs.com) + [Laravel Mix](https://laravel.com/docs/5.7/mix)
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+*Adonis* makes use of blueprints to create the files structure of a new project. This repository is just a blueprint that integrates *Adonis FullStack App* and *Laravel Mix*. You can use this as a start point for your Adonis + Laravel Mix projects.
 
-## Setup
 
-Use the adonis command to install the blueprint
+## Install
 
-```bash
-adonis new yardstick
+Create a new project with:
+
+```shell
+  adonis new <my-project> --blueprint marcim/adonis-fullstack-app-laravelmix
 ```
 
-or manually clone the repo and then run `npm install`.
+> Change `<my-project>` to your project name.
 
 
-### Migrations
+## Usage
 
-Run the following command to run startup migrations.
+The Adonis `start` and `test` commands still there. And The following commands are available to handle project assets:
 
-```js
-adonis migration:run
-```
+| Command | Description |
+|---------|-------------|
+| npm run asset-dev | Compiles assets in development mode. |
+| npm run asset-watch | Compiles assets in development mode and watches changes. |
+| npm run asset-watch-pool | Same as above, used in [some cases](https://laravel.com/docs/5.7/mix#running-mix). |
+| npm run asset-hot | Compiles assets in development mode with hot reload option activated. |
+| npm run asset-prod | Compiles assets for production. |
+
+
+## Features
+
+For more information see project sites:
+
+[AdonisJs documentation](http://adonisjs.com/docs)
+
+[Laravel Mix documentation](https://laravel.com/docs/5.7/mix)
+
+
+## Licenses
+
+[AdonisJs license](https://github.com/adonisjs/adonis-framework/blob/master/LICENSE.md)
+[Laravel Mix license](https://github.com/JeffreyWay/laravel-mix/blob/master/LICENSE)
+[VueJs license](https://github.com/vuejs/vue/blob/master/LICENSE)
+
+
+## Contributing
+
+Suggestions and contributions are welcome via Pull Requests.
+
+
+Obrigado! (thanks!)
