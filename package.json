@@ -2,6 +2,7 @@
   "name": "adonis-fullstack-app-laravelmix",
   "version": "1.0.0",
   "adonis-version": "4.1.0",
+  "laravel-mix-version": "4.0.12",
   "description": "The fullstack application boilerplate for Adonis with Laravel Mix",
   "main": "index.js",
   "scripts": {
