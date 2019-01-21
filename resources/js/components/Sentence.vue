@@ -1,5 +1,10 @@
 <template>
-  <div class="subtitle"><p>{{ text }}</p></div>
+  <div class="subtitle">
+    <p>{{text}}</p>
+    <p>
+      Don't know where to start? Read the <a href="https://adonisjs.com/docs">documentation</a>.
+    </p>
+  </div>
 </template>
 
 <script>
