@@ -1,3 +1,9 @@
+
+> Sorry, this repository is no longer maintained. It is recommended that you install [Laravel Mix](https://laravel-mix.com/) yourself.
+
+
+
+
 # AdonisJs FullStack App With Laravel Mix
 
 [AdonisJs](http://adonisjs.com) + [Laravel Mix](https://laravel-mix.com/docs)
